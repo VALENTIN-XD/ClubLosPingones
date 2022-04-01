@@ -1,0 +1,152 @@
+body {
+	background: #e8e8e8;
+	background: url(imagenes/cesped.jpg);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1500px;
+	margin: auto; 
+	height: 90%;
+}
+
+.navbar{
+	width: 80%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 100px;
+	cursor: pointer;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+.navbar ul li::before {
+	content: "";
+	height: 6px;
+	width: 0%;
+	background: white;
+	position: absolute;
+	left: 0;
+	bottom: -12px;
+	transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+	width: 100%;
+}
+
+.marco1 {
+    border: 3px solid black;
+    list-style: none;
+	padding: 0;
+	background:#092327;
+	width: 30%;
+	max-width: 1000px;
+	margin: 1px;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 3vw;
+  color: white;
+
+}
+
+h2{
+  font-size: 3vw;
+  color: white
+}
+
+h3 {
+	font-family: Tw Cen MT;
+	font-size: 3vw
+	color: white;
+}
+
+p{
+  font-family: Arial;
+  font-size: 2vw;
+  color: white
+}
+
+.pof {
+	font-size: 3vw;
+	color: white;
+}
+
+.img2 {
+	width: 27px;
+}
+
+.img3 {
+	width: 500px;
+	height: 650px;
+	margin: 10px;
+}
+
+h3 {
+	font-size: 3vw;
+	color: white
+}
+
+.hola {
+	font-size: 2vw;
+	color: white;
+}
+
+.texto {
+    font-family: Verdana;
+}
+
+.class {
+	font-size: 3vw
+}
+
+.marco2 {
+    border: 3px solid darkred;
+    list-style: none;
+	padding: 0;
+	background: black;
+	width: 90%;
+	max-width: 1000px;
+	margin: none;
+}
+
+.marco3 {
+    border: 3px solid darkred;
+    list-style: none;
+	padding: 0;
+	background:#092327;
+	width: 30%;
+	max-width: 500px;
+	margin: 1px;
+}
+
+.cd {
+    font-family: font-family: 'Montserrat', sans-serif;
+}
